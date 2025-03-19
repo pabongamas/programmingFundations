@@ -47,7 +47,7 @@ print(full_name)
 
 #LIST
 
-my_list=[1,2.5,56,[1,2,3],78,3]
+my_list=[1,2.5,56,67,78,3]
 my_list[0]=20
 lenList=len(my_list)
 firstTwoValues=my_list[0]+my_list[1]
@@ -56,7 +56,7 @@ print(my_list)
 valuesToExtend=[89,78]
 my_list.extend(valuesToExtend)
 print(my_list)
-my_list[3]=-10
+my_list.insert(3,-10)
 print(my_list)
 sorted_list = sorted(my_list)
 print(sorted_list)
