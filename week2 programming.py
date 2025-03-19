@@ -59,13 +59,15 @@ print(my_list)
 my_list.insert(3,-10)
 print(my_list)
 sorted_list = sorted(my_list)
-print(sorted_list)
+print(f'sorted_list :{sorted_list}')
+print(f'my_list :{my_list}')
+
 
 #tuple
 
 my_tuple=(1,2,3,4,5)
 lenTuple=len(my_tuple)
-print(f' lenght tuple: {lenTuple}')
+print(f' length tuple: {lenTuple}')
 print(f' last value tuple: {my_tuple[lenTuple-1]}')
 my_tuple[2]=25 ##error ''tuple' object does not support item assignment' ,it can't because a tuple is not modifiable
 
@@ -78,6 +80,10 @@ print(my_data)
 print(f' Student names: {my_data.keys()}')
 print(f' Student Ages: {my_data.values()}')
 print(f'johan age : {my_data["johan"]}')
+
+
+
+
 
 
 
